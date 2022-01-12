@@ -5,7 +5,7 @@ Resources:
   TimeFunction:
     Type: AWS::Serverless::Function
     Properties:
-      Handler: lambda_function.handler
+      Handler: lambda_handler.handler
       Runtime: python3.9
       CodeUri: ./
       Events:
